@@ -52,7 +52,7 @@ A machine learning project to predict diabetes using patient health data. The pr
 A **real-time web app** to predict diabetes using the trained model. Users can input patient data and get predictions instantly.
 
 **Screenshot:**  
-!<img width="1362" height="594" alt="app_screenshot" src="https://github.com/user-attachments/assets/61790d59-38a9-4a87-b538-21073d6739bb" />
+<img width="1362" height="594" alt="app_screenshot" src="https://github.com/user-attachments/assets/61790d59-38a9-4a87-b538-21073d6739bb" />
 
 ---
 
