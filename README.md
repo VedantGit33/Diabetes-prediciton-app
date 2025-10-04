@@ -3,7 +3,10 @@
 A machine learning project to predict diabetes using patient health data. The project includes **data preprocessing, model training, and deployment** using Streamlit and Docker.
 
 ---
-## Import Dependencies:
+
+## Workflow
+
+** Import Dependencies: **
    ```python
    import numpy as np
    import pandas as pd
