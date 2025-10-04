@@ -2,19 +2,19 @@
 
 A machine learning project to predict diabetes using patient health data. The project includes **data preprocessing, model training, and deployment** using Streamlit and Docker.
 
---
+---
 
 ## Workflow
 
 ** Import Dependencies: **
-   import numpy as np
-   import pandas as pd
-   import matplotlib.pyplot as plt
-   import seaborn as sns
-   from sklearn.model_selection import train_test_split
-   from sklearn.preprocessing import StandardScaler
-   from sklearn.linear_model import LogisticRegression
-   from sklearn.metrics import accuracy_score, confusion_matrix
+ - import numpy as np
+ - import pandas as pd
+ - import matplotlib.pyplot as plt
+ - import seaborn as sns
+ - from sklearn.model_selection import train_test_split
+ - from sklearn.preprocessing import StandardScaler
+ - from sklearn.linear_model import LogisticRegression
+ - from sklearn.metrics import accuracy_score, confusion_matrix
 
 ---
 
