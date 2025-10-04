@@ -6,7 +6,8 @@ A machine learning project to predict diabetes using patient health data. The pr
 
 ## Workflow
 
-** Import Dependencies: **
+## Import Dependencies: 
+
  - import numpy as np
  - import pandas as pd
  - import matplotlib.pyplot as plt
@@ -51,7 +52,7 @@ A machine learning project to predict diabetes using patient health data. The pr
 A **real-time web app** to predict diabetes using the trained model. Users can input patient data and get predictions instantly.
 
 **Screenshot:**  
-![App Screenshot](path/to/your-screenshot.png)  
+!
 
 ---
 
