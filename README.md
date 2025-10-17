@@ -23,8 +23,8 @@ A machine learning project to predict diabetes using patient health data. The pr
 
 - **Basic Checks -**
 - **Rows:** 768  
-- **Source:** [Kaggle / UCI Diabetes Dataset] (replace with link if needed)  
-- **Features:** Multiple patient health metrics (Glucose, BMI, Age, etc.)  
+- **Source:** [Kaggle / UCI Diabetes Dataset]  
+- **Features:** Multiple patient health metrics (Glucose, BMI, Age, Pregnancies, BloodPressure, DiabetesPedigreeFunction, etc.)  
 - **Target:** Diabetes (0 = No, 1 = Yes)
 
 ---
