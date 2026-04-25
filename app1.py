@@ -14,16 +14,16 @@ st.title("Diabetes Prediction")
 col1, col2 = st.columns(2)
 
 with col1:
-    preg = st.number_input('Pregnancies',value=0.0)
-    bp = st.number_input('BloodPressure',value=0.0)
-    insulin = st.number_input('Insulin',value=0.0)
-    dpf = st.number_input('DiabetesPedigreeFunction',value=0.0)
+    preg = st.number_input('Pregnancies',min_value=1,max_value=12,value=1)
+    bp = st.number_input('BloodPressure',min_value=0,max_value=140,value=100)
+    insulin = st.slider('Insulin',min_value=0,max_value=900,value=80)
+    dpf = st.slider('DiabetesPedigreeFunction',min_value=0.0,max_value=2.5,value=0.5)
 
 with col2:
-    glucose = st.number_input('Glucose',value=0.0)
-    skinthick = st.number_input('SkinThickness',value=0.0)
-    bmi = st.number_input('BMI',value=0.0)
-    age = st.number_input('Age',value=0.0)
+    glucose = st.slider('Glucose',min_value=0, max_value=200, value=100)
+    skinthick = st.slider('SkinThickness',min_value=0, max_value=100, value=20)
+    bmi = st.number_input('BMI', min_value=10.0,max_value=50.0,value=18.5)
+    age = st.number_input('Age',min_value=21,max_value=80,value=21)
 
 input_data = pd.DataFrame([{
     "Pregnancies":preg,
